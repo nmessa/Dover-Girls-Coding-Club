@@ -14,7 +14,6 @@ line_length = 5
 #### Functions:   
 def erase_all(event):
     canvas.delete(ALL)
-    canvas.create_image(0, 0, image=scene, anchor=NW)
 
 def line_red():
     global line_color
